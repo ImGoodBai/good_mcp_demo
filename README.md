@@ -18,15 +18,21 @@ if __name__ == "__main__":
 ```
 
 ## 第二步 配置conda环境
+```
  conda.exe create -n mcp python=3.12
  conda activate mcp
+```
 
 ## 第三步 安装依赖包
+```
 pip install "mcp[cli]"
 pip install psutil
+```
 
 ## 第四步 运行代码
+```
 python mcp_get_current_time.py
+```
 
 ## 第五步 在聊天机器人中配置mcp server并使用
 
